@@ -7,42 +7,68 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Projects & Dashboards</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-      <a href="resume.pdf" target="_blank">Resume</a>
-    </nav>
-  </header>
 
-  <section id="projects">
+<header>
+  <h1>Projects</h1>
+  <p>Real-world analytics projects across Healthcare and Financial domains</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-    <!-- Project 1 -->
-    <div class="project">
-      <img src="assets/images/tenet_dashboard.png" alt="Tenet Healthcare Dashboard" class="project-img">
-      <h3>Healthcare Analytics Dashboards</h3>
-      <p>Created interactive Tableau and Power BI dashboards for Tenet Healthcare to monitor patient demographics, treatment outcomes, and operational KPIs. Increased executive reporting adoption by 40% and enabled data-driven decision-making across clinical and administrative teams.</p>
-      <a href="#" target="_blank">View Project</a>
-    </div>
+<section class="projects-section">
 
-    <!-- Project 2 -->
-    <div class="project">
-      <img src="assets/images/wintrust_financial.png" alt="Wintrust Financial Dashboard" class="project-img">
-      <h3>Financial ETL & BI Automation</h3>
-      <p>Designed ETL pipelines and PostgreSQL views for Wintrust Financial, automating historical data processing and reporting. Developed Power BI dashboards to visualize KPIs, reducing manual reporting by 40% and improving decision-making accuracy.</p>
-      <a href="#" target="_blank">View Project</a>
-    </div>
+  <!-- Project 1 -->
+  <div class="project-card">
+    <h2>Enterprise Healthcare Analytics Platform</h2>
+    <h4>Client: Tenet Healthcare</h4>
 
-    <!-- Project 3 -->
-    <div class="project">
-      <img src="assets/images/techbion_reporting.png" alt="Techbion Reporting Automation" class="project-img">
-      <h3>Automated Reporting Platform</h3>
-      <p>Built Python, SSIS, and Power BI solutions at Techbion Software to automate report generation and optimize data visualization workflows. Ensured consistent, reliable delivery of analytics while reducing manual effort and errors.</p>
-      <a href="#" target="_blank">View Project</a>
-    </div>
+    <ul>
+      <li>Worked with large-scale healthcare datasets including EHR, patient management, and operational systems.</li>
+      <li>Designed and delivered executive dashboards using Power BI and Tableau to track clinical, operational, and financial KPIs.</li>
+      <li>Built and optimized ETL pipelines using Azure Data Factory, SSIS, and SQL Server to ensure accurate and timely data delivery.</li>
+      <li>Performed exploratory data analysis (EDA) to identify patterns in patient demographics, treatment outcomes, and utilization trends.</li>
+      <li>Applied machine learning techniques such as regression, classification, clustering, and anomaly detection to support clinical decision-making.</li>
+      <li>Improved reporting adoption by 40% and reduced data load failures by 30% through robust validation and QA processes.</li>
+      <li>Ensured HIPAA-compliant data governance with role-based access controls and secure data handling.</li>
+    </ul>
+  </div>
 
-  </section>
+  <!-- Project 2 -->
+  <div class="project-card">
+    <h2>Financial Performance & Regulatory Reporting</h2>
+    <h4>Client: Wintrust Financial</h4>
+
+    <ul>
+      <li>Developed interactive dashboards using Power BI, Tableau, and Qlik to monitor financial and operational performance.</li>
+      <li>Designed data warehouse models using Star and Snowflake schemas to support enterprise reporting needs.</li>
+      <li>Implemented ETL workflows with Slowly Changing Dimensions (SCD Type 1 & 2) to maintain historical accuracy.</li>
+      <li>Built PostgreSQL views and optimized SQL queries to standardize KPI calculations across reports.</li>
+      <li>Automated reporting processes, reducing manual reporting effort by 40% and improving data consistency.</li>
+      <li>Performed statistical analysis and Python-based sampling to support risk, compliance, and decision-making teams.</li>
+      <li>Collaborated with business analysts, data engineers, and finance stakeholders to align analytics with Oracle EPM outputs.</li>
+    </ul>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card">
+    <h2>Automated BI Reporting & Data Warehousing</h2>
+    <h4>Client: Techbion Software Systems</h4>
+
+    <ul>
+      <li>Built automated BI reporting solutions using Power BI, Tableau, SSIS, and SQL Server.</li>
+      <li>Developed ETL pipelines to extract data from OLTP systems and load into OLAP reporting environments.</li>
+      <li>Applied data warehousing principles to design efficient data marts and improve query performance.</li>
+      <li>Replaced manual Excel-based reporting with automated dashboards, improving data timeliness and accuracy.</li>
+      <li>Created and maintained database objects including tables, views, stored procedures, and triggers using T-SQL.</li>
+      <li>Implemented data quality checks, reconciliation, and error logging to ensure reliable reporting.</li>
+      <li>Worked in Agile Scrum teams to deliver analytics features aligned with business requirements.</li>
+    </ul>
+  </div>
+
+</section>
+
 </body>
 </html>
